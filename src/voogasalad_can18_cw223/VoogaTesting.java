@@ -3,6 +3,7 @@ package voogasalad_can18_cw223;
 import api.IEntity;
 import api.ILevel;
 import api.IPhysicsEngine;
+import javafx.geometry.Point2D;
 import model.component.movement.Position;
 import model.component.movement.Velocity;
 import model.component.physics.Mass;
@@ -30,6 +31,7 @@ public class VoogaTesting {
         assertEquals(Math.abs(pos.getX() - 2.0) < 0.0001, true);
         assertEquals(Math.abs(pos.getY() - 2.0) < 0.0001, true);
     }
+
 
     @Test
     public void testImpulse () {
