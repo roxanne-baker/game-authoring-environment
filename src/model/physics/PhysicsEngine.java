@@ -1,18 +1,3 @@
-// This entire file is part of my masterpiece
-// Roxanne Baker
-
-// This class is the physics engine and is responsible for handling things like
-// applying gravity to entities, moving the position of each entity every time
-// step based on their velocity, and collision handling (which is 'outsourced'
-// to a separate class given that it takes up a significant amount of code
-// in itself).
-//
-// I think that this class represents good design because, while a very important
-// class, it doesn't do too much.  The more complicated calculations that make up
-// the 'nitty-gritty' of the class have been allocated to other classes to make
-// it more clear what the purpose of this class is.  It also shows some of what
-// I've learned about functional programming throughout the course.
-
 package model.physics;
 
 import api.ICollisionVelocityCalculator;
