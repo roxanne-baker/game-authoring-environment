@@ -1,13 +1,3 @@
-// This entire file is part of my masterpiece
-// Roxanne Baker
-
-// This class is responsible for handling collisions
-// This includes both updating the collision components
-// of entities to represent what entities they are colliding with
-// and what sides they are colliding with
-// It also demonstrates a more extensive usage of functional programming
-// and utilizing other important concepts like reflection and enumeration
-
 package model.physics;
 
 import java.util.Arrays;
@@ -24,6 +14,13 @@ import javafx.geometry.Bounds;
 import model.component.physics.Collision;
 import voogasalad.util.reflection.Reflection;
 
+/**
+ * Contains the logic for handling/updating the
+ * collision components of entities and moving
+ * entities following a collision
+ * @author Roxanne Baker
+ **/
+ 
 public class CollisionHandler {
 
 	private ICollisionVelocityCalculator velocityCalculator;
